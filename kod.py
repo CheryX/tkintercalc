@@ -1,6 +1,6 @@
 from tkinter import *
 root = Tk()
-root.title("Kalkulator Maciej Musielik 8c")
+root.title("calc")
 e = Entry(root, borderwidth=5, width=35)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 def button_click(number):
